@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendo HTML y CSS</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <img src="img/Posicionamiento_web.png" alt="Imagen de logo" height="100" width="200">
+        <h1>Frameworks CSS, Posicionamiento Web</h1>
+        <img src="img/frameworks_css.png" alt="Imagen de logo" height="100" width="200">
+    </header>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Temas</a>
+                <ul class="dropdown">
+                    <li><a href="#">tema 1</a></li>
+                    <li><a href="#">tema 2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Recursos</a>
+                <ul class="dropdown">
+                    <li><a href="#">Audio1</a></li>
+                    <li><a href="#">Audio2</a></li>
+                </ul>
+            </li>
+            <li> <a href="#">Aprendizaje</a>
+                <ul class="dropdown">
+                    <li><a href="#">prueba1</a></li>
+                    <li><a href="#">prueba2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="contenedor">
+        <aside>
+            <h4>Fan page</h4>
+            <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                width="340" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </aside>
+        <section>
+            <article class="justificado">
+                <h3>Frameworks CSS</h3>
+                <p>
+                 El uso de Frameworks en la construcción de aplicaciones Web , 
+                 es un tema de reciente desarrollo e investigación en el área del software, <br> 
+                 y está muy relacionado con el concepto “Web 2.0” y los sistemas modernos de información. <br>
+                 <h6>Tomado de: https://revistas.utp.edu.co/index.php/revistaciencia/article/view/1817 </h6>
+                 Las tecnologías web han evolucionado hasta permitir que los desarrolladores 
+                 puedan crear nuevas e increíbles experiencias web, esta evolución surgió <br> 
+                 por el continuo esfuerzo de una comunidad web abierta que ayuda a definirlas y,  
+                 a su vez, garantizando la compatibilidad con los navegadores. <br>
+                 <h6>Tomado de : https://core.ac.uk/download/pdf/71397979.pdf</h6>
+                <iframe src="pdf/frameworksCSS.pdf" frameborder="0" height="400" width="100%"></iframe>
+            </article>
+            
+        </section>
+
+    </div>
+
+    <footer>
+        <p> © Copyleft miOrganización.org | fecha de actualización: <br>
+            Diseño, código HTML5 y programación hecho a mano por nosotros usando herramientas de Software Libre.
+
+        </p>
+
+
+    </footer>
+    
+</body>
+</html>
